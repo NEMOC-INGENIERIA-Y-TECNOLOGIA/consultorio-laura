@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Endodoncia - Dra. Laura Ramírez</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #1a3c5a;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    main {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem;
+    }
+    .texto {
+      flex: 1;
+      min-width: 280px;
+    }
+    .texto p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+    .texto a.boton {
+      display: inline-block;
+      margin-top: 1rem;
+      background-color: #1a3c5a;
+      color: white;
+      padding: 0.5rem 1rem;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    .imagen {
+      flex: 1;
+      min-width: 280px;
+    }
+    .imagen img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    /* Botón flotante de WhatsApp */
+    .whatsapp-box {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: white;
+  padding: 0.75rem 1rem;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.whatsapp-box:hover {
+  background-color: #1ebe5d;
+}
+
+.icono-whatsapp {
+  width: 24px;
+  height: 24px;
+}
+
+    .back-button {
+      position: fixed;
+      bottom: 90px;
+      right: 20px;
+      background-color: #0e2a43;
+      color: white;
+      padding: 10px 14px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Endodoncia</h1>
+  </header>
+
+  <main>
+    <div class="texto">
+      <p>La endodoncia, también conocida como tratamiento de conductos, es un procedimiento diseñado para salvar dientes que presentan caries profundas, infecciones o daños en la pulpa dental. Este tratamiento elimina el tejido infectado del interior del diente, se limpia cuidadosamente el canal radicular y se sella para evitar futuras infecciones.</p>
+      <p>En nuestro consultorio utilizamos técnicas modernas, instrumentación avanzada y materiales de alta calidad para garantizar tratamientos efectivos, seguros y sin dolor. Nuestro objetivo es preservar la pieza dental y devolverle su funcionalidad, evitando extracciones innecesarias y ayudando a conservar tu sonrisa natural por más tiempo.</p>
+      <a href="../index.html#servicios" class="boton">← Volver a servicios</a>
+    </div>
+    <div class="imagen">
+      <img src="../img/Endodoncia.jpg" alt="Endodoncia" />
+    </div>
+  </main>
+
+  <!-- Botón WhatsApp flotante -->
+ <a href="https://wa.me/573001112233" class="whatsapp-box" target="_blank" title="Agenda tu cita por WhatsApp">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="icono-whatsapp">
+  <span>Agenda tu cita</span>
+</a>
+
+
+  <!-- Botón de regreso a inicio -->
+  <a href="../index.html#inicio" class="back-button">Inicio</a>
+
+</body>
+</html>
